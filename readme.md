@@ -71,3 +71,17 @@ Sun Nov  5 00:24:45 2023
 https://jenny-jo55.tistory.com/60
 
 
+```
+conda create -n env_name python tensorflow numpy scipy=0.15.0​
+conda activate env_name​
+conda install notebook matplotlib pandas seaborn -y
+
+```
+#### 6.  Framework 
+설치하려는  Framework(TF or Pytorch) 가 cuda 버전 어떤 것과 맞는 지 확인한다.
+
+아나콘다 가상환경을 만들어준 후에 그 안에서 설치한다.
+pip로 tensorflow 깔면 cuda, cdnn을 일일이 버전 찾아서 깔아줘야 하는 수고가 필요하나... 킹갓 conda로 깔면 그런거 필요 없이 알아서 깔아준다.(참고)
+TF :  공홈 > 설치> 소스에서 빌드> 각자에게 맞는 OS > CUDA 버전에 맞는 TF 버전과 파이썬 버전 체크 
+Pytorch : 공홈 > Get Started > Start Locally >  친절하게 각자 사양에 맞춰서 이미 표시된 셋팅으로 나온 명령어 복붙)
+
